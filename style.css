@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-bar {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .logo span {
+    color: orange;
+    margin-left: 4px;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .btn-orange {
+    background-color: orange;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero-img-strelka{
+     display: flex;
+     align-items: center;
+     gap: 24px;
+    
+
+  }
+
+  .btn-link {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #fefaf5;
+    padding: 60px 0;
+  }
+  
+  .hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+.hero-buttons{
+     display: flex;
+     align-items:center ;
+     gap: 44px;
+
+
+}
+
+
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text h1 span {
+    color: orange;
+  }
+  
+  .hero-text p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .hero-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .hero-text {
+    max-width: 60%;
+  }
+  
+  .hero-image img {
+    width: 400px;
+    border-radius: 12px;
+  }
+  
+  .why-us {
+    background: #fff;
+    padding: 60px 0;
+  }
+  
+  .why-us h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  
+  .feature {
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature .icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    background-color: #ffcc80;
+    border-radius: 50%;
+  }
+  
